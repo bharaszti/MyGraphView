@@ -1,0 +1,83 @@
+TASK com.jjoe64.graphview_demos id=1021
+  ACTIVITY com.jjoe64.graphview_demos/.MainActivity fb9ce10 pid=27317
+    Local FragmentActivity 68d9352 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 3096e623:
+      #0: NavigationDrawerFragment{c70d720 #0 id=0x7f0b0041}
+        mFragmentId=#7f0b0041 mContainerId=#0 mTag=null
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=true mInLayout=true
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=true
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{3096e623 in MainActivity{68d9352}}
+        mActivity=com.jjoe64.graphview_demos.MainActivity@68d9352
+        mView=android.widget.ListView{305788d9 IFED.VC. ......I. -720,0-0,1533 #7f0b0041 app:id/navigation_drawer}
+        mInnerView=android.widget.ListView{305788d9 IFED.VC. ......I. -720,0-0,1533 #7f0b0041 app:id/navigation_drawer}
+        Child FragmentManager{31cd929e in NavigationDrawerFragment{c70d720}}:
+          FragmentManager misc state:
+            mActivity=com.jjoe64.graphview_demos.MainActivity@68d9352
+            mContainer=android.support.v4.app.Fragment$1@1b67c17f
+            mParent=NavigationDrawerFragment{c70d720 #0 id=0x7f0b0041}
+            mCurState=5 mStateSaved=false mDestroyed=false
+      #1: Scaling{2f5c454c #1 id=0x7f0b0040}
+        mFragmentId=#7f0b0040 mContainerId=#7f0b0040 mTag=null
+        mState=5 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{3096e623 in MainActivity{68d9352}}
+        mActivity=com.jjoe64.graphview_demos.MainActivity@68d9352
+        mArguments=Bundle[{section_number=9}]
+        mContainer=android.widget.FrameLayout{2c2ed995 V.E..... ........ 0,0-1080,1533 #7f0b0040 app:id/container}
+        mView=android.widget.RelativeLayout{347c3aaa V.E..... ........ 0,0-1080,1533}
+        mInnerView=android.widget.RelativeLayout{347c3aaa V.E..... ........ 0,0-1080,1533}
+        Child FragmentManager{3c40f69b in Scaling{2f5c454c}}:
+          FragmentManager misc state:
+            mActivity=com.jjoe64.graphview_demos.MainActivity@68d9352
+            mContainer=android.support.v4.app.Fragment$1@9ae6a38
+            mParent=Scaling{2f5c454c #1 id=0x7f0b0040}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: NavigationDrawerFragment{c70d720 #0 id=0x7f0b0041}
+      #1: Scaling{2f5c454c #1 id=0x7f0b0040}
+    Fragments Created Menus:
+      #0: NavigationDrawerFragment{c70d720 #0 id=0x7f0b0041}
+    FragmentManager misc state:
+      mActivity=com.jjoe64.graphview_demos.MainActivity@68d9352
+      mContainer=android.support.v4.app.FragmentActivity$2@22f07a11
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{1fbb5776 V.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{32ae6177 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{efbf1e4 G.E..... ... 0,0-0,0 #1020373}
+          android.widget.FrameLayout{1f51a64d V.E..... ... 0,75-1080,1776}
+            android.support.v7.internal.widget.ActionBarOverlayLayout{22fd7502 V.E..... ... 0,0-1080,1701 #7f0b002f app:id/decor_content_parent}
+              android.support.v7.internal.widget.NativeActionModeAwareLayout{211d9e13 V.E..... ... 0,168-1080,1701 #1020002 android:id/content}
+                android.support.v4.widget.DrawerLayout{35784850 VFE..... F.. 0,0-1080,1533 #7f0b003f app:id/drawer_layout}
+                  android.widget.FrameLayout{2c2ed995 V.E..... ... 0,0-1080,1533 #7f0b0040 app:id/container}
+                    android.widget.RelativeLayout{347c3aaa V.E..... ... 0,0-1080,1533}
+                      android.widget.TextView{281f5a49 V.ED.... ... 48,48-48,105 #7f0b0042 app:id/section_label}
+                      com.jjoe64.graphview.GraphView{51df4e V.ED.... ... 48,105-1032,705 #7f0b0043 app:id/graph}
+                  android.widget.ListView{305788d9 IFED.VC. ... -720,0-0,1533 #7f0b0041 app:id/navigation_drawer}
+                    android.widget.TextView{193a086f V.ED.... ... 0,-114-720,30 #1020014 android:id/text1}
+                    android.widget.TextView{2121997c V.ED.... ... 0,29-720,173 #1020014 android:id/text1}
+                    android.widget.TextView{9fa5205 V.ED.... ... 0,172-720,316 #1020014 android:id/text1}
+                    android.widget.TextView{3970a25a V.ED.... ... 0,315-720,459 #1020014 android:id/text1}
+                    android.widget.TextView{3208bc8b V.ED.... ... 0,458-720,602 #1020014 android:id/text1}
+                    android.widget.TextView{15acd168 V.ED.... ... 0,601-720,745 #1020014 android:id/text1}
+                    android.widget.TextView{d30981 V.ED.... ... 0,744-720,888 #1020014 android:id/text1}
+                    android.widget.TextView{1868a26 V.ED.... ... 0,887-720,1031 #1020014 android:id/text1}
+                    android.widget.TextView{23c49667 V.ED.... ... 0,1030-720,1174 #1020014 android:id/text1}
+                    android.widget.TextView{1b319c14 V.ED.... ... 0,1173-720,1317 #1020014 android:id/text1}
+                    android.widget.TextView{3d25bcbd V.ED.... ... 0,1316-720,1460 #1020014 android:id/text1}
+                    android.widget.TextView{3fc122b2 V.ED.... ... 0,1459-720,1603 #1020014 android:id/text1}
+              android.support.v7.internal.widget.ActionBarContainer{57a3203 V.ED.... ... 0,0-1080,168 #7f0b0030 app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{1966580 V.E..... ... 0,0-1080,168 #7f0b0031 app:id/action_bar}
+                  android.widget.ImageButton{f667b9 VFED..C. ... 0,0-168,168}
+                  android.widget.TextView{2e9ab7fe V.ED.... ... 180,43-376,124}
+                  android.support.v7.widget.ActionMenuView{863eb5f V.E..... ... 828,0-1080,168}
+                    android.support.v7.internal.view.menu.ActionMenuItemView{2ebc59ac VFED..CL ... 0,12-252,156 #7f0b0048 app:id/action_show_code}
+                android.support.v7.internal.widget.ActionBarContextView{108cc675 G.E..... ... 0,0-0,0 #7f0b0032 app:id/action_context_bar}
+        android.view.View{23e6560a V.ED.... ... 0,0-1080,75 #102002f android:id/statusBarBackground}
+        android.view.View{d05de7b V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
