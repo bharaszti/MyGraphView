@@ -1,4 +1,4 @@
-Chart and Graph Library for Android
+My spike for using the GraphView Library
 ====================================
 
 <h2>What is GraphView</h2>
