@@ -27,5 +27,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_show_code">Show code</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_diagram">DiagramActivity</string>
+
+    <string name="hello_world">Hello world!</string>
 
 </resources>
