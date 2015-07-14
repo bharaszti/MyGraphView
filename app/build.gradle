@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.0"
 
     defaultConfig {
-        applicationId "com.jjoe64.graphview_demos"
+        applicationId "com.jjoe64.my_graphview_demos"
         minSdkVersion 10
         targetSdkVersion 22
         versionCode 2
