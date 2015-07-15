@@ -64,9 +64,8 @@ public class DiagramActivity extends ActionBarActivity {
         // data
         Random random = new Random();
         for (int i = 0; i < MAX_DATA_POINTS; i++) {
-            int value = 100 + random.nextInt(20);
-            data1[i] = new DataPoint(i, value);
-            data2[i] = new DataPoint(i, value + 10 - random.nextInt(20));
+            data1[i] = new DataPoint(i, 90 + random.nextInt(40));
+            data2[i] = new DataPoint(i, 80 + random.nextInt(60));
             labels[i] = String.valueOf(i + 1);
         }
 
@@ -78,16 +77,19 @@ public class DiagramActivity extends ActionBarActivity {
         graph.addSeries(series2);
 
         // style
-        series.setSpacing(10);
+        series.setSpacing(20);
 
         // Y axis
         graph.getViewport().setYAxisBoundsManual(true);
         graph.getViewport().setMinY(0);
         graph.getViewport().setMaxY(150);
 
-        // use static labels for X axis
+        // use static labels
         StaticLabelsFormatter staticLabelsFormatter = new StaticLabelsFormatter(graph);
         staticLabelsFormatter.setHorizontalLabels(labels);
+
+        staticLabelsFormatter.setVerticalLabels(new String[]{"0", "25", "50", "75", "100", "125", "150"});
+
         graph.getGridLabelRenderer().setLabelFormatter(staticLabelsFormatter);
 
         // selected bar styling
